@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Card container */
+    .card-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+    }
+
+    /* Individual card */
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    /* Card 1 */
+    .card-1 {
+      background-image: linear-gradient(to bottom right, #FFD700, #FFA500);
+      color: #fff;
+    }
+
+    /* Card 2 */
+    .card-2 {
+      background-image: linear-gradient(to bottom right, #00CED1, #4682B4);
+      color: #fff;
+    }
+
+    /* Card 3 */
+    .card-3 {
+      background-image: linear-gradient(to bottom right, #FF69B4, #FF1493);
+      color: #fff;
+    }
+
+    /* Card content */
+    .card-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+  <title>CSS Card Design</title>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card card-1">
+      <h2 class="card-title">Minarets</h2>
+      <p class="card-description">
+Minarets are towering spires with interior staircases and small windows.</p>
+    </div>
+    <div class="card card-2">
+      <h2 class="card-title">Domes</h2>
+      <p class="card-description">Islamic architecture features domes placed on structures called pendentives that make it possible to fit a round dome on a rectangular or square room.</p>
+    </div>
+    <div class="card card-3">
+      <h2 class="card-title">Arches</h2>
+      <p class="card-description">Horseshoe (or keyhole), pointed (a precursor to Gothic), scalloped (or multifoil), and ogee (multicurved) arches are common in Islamic architecture.</p>
+    </div>
+  </div>
+</body>
+</html>
